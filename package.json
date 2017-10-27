@@ -16,8 +16,14 @@
     "url": "https://github.com/jeremyoverman/semaphore-test-repo/issues"
   },
   "homepage": "https://github.com/jeremyoverman/semaphore-test-repo#readme",
+  "release": {
+    "verifyConditions": {
+      "path": "./verifyConditions.js"
+    }
+  },
   "devDependencies": {
     "jasmine": "^2.8.0",
+    "semantic-release": "^8.2.0",
     "typescript": "^2.5.3"
   },
   "dependencies": {
