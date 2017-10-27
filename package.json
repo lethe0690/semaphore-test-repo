@@ -1,6 +1,5 @@
 {
   "name": "semaphore-test-repo",
-  "version": "1.0.0",
   "description": "A test repo for trying out Semaphore CI",
   "main": "index.js",
   "scripts": {
