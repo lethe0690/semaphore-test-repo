@@ -106,10 +106,27 @@
             ]
           }
         }
+      ],
+      [
+        "@semantic-release/changelog",
+        {
+          "changelogFile": "CHANGELOG.md",
+          "changelogTitle": "Notas de versão"
+        }
+      ],
+      [
+        "@semantic-release/git",
+        {
+          "assets": [
+            "CHANGELOG.md"
+          ],
+          "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+        }
       ]
     ]
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/npm": "^7.0.10",
     "@semantic-release/release-notes-generator": "^9.0.2",
     "conventional-changelog-conventionalcommits": "^4.5.0",
