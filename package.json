@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/jeremyoverman/semaphore-test-repo#readme",
   "release": {
-     "prepare": [
+    "prepare": [
       {
         "path": "@semantic-release/npm",
         "npmPublish": false,
@@ -27,9 +27,9 @@
     "verifyConditions": {
       "path": "./verifyConditions.js"
     },
-     "plugins": [
-    "@semantic-release/npm",
-  ]
+    "plugins": [
+      "@semantic-release/npm"
+    ]
   },
   "devDependencies": {
     "jasmine": "^2.8.0",
