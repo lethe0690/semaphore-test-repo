@@ -111,8 +111,9 @@
   },
   "devDependencies": {
     "@semantic-release/npm": "^7.0.10",
-    "conventional-changelog-eslint": "^3.0.9",
+    "@semantic-release/release-notes-generator": "^9.0.2",
     "conventional-changelog-conventionalcommits": "^4.5.0",
+    "conventional-changelog-eslint": "^3.0.9",
     "jasmine": "^2.8.0",
     "semantic-release": "^17.4.2",
     "typescript": "^2.5.3"
