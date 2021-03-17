@@ -16,9 +16,6 @@
         "tarballDir": "dist"
       }
     ],
-    "verifyConditions": {
-      "path": "./verifyConditions.js"
-    },
     "plugins": [
       "@semantic-release/npm"
     ]
