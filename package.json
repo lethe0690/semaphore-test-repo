@@ -2,6 +2,7 @@
   "name": "semaphore-test-repo",
   "description": "A test repo for trying out Semaphore CI",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "node node_modules/jasmine/bin/jasmine.js --config=src/spec/support/jasmine.json"
   },
@@ -16,14 +17,25 @@
   },
   "homepage": "https://github.com/jeremyoverman/semaphore-test-repo#readme",
   "release": {
+     "prepare": [
+      {
+        "path": "@semantic-release/npm",
+        "npmPublish": false,
+        "tarballDir": "dist"
+      }
+    ],
     "verifyConditions": {
       "path": "./verifyConditions.js"
-    }
+    },
+     "plugins": [
+    "@semantic-release/npm",
+  ]
   },
   "devDependencies": {
     "jasmine": "^2.8.0",
     "semantic-release": "^8.2.0",
-    "typescript": "^2.5.3"
+    "typescript": "^2.5.3",
+    "@semantic-release/npm": "^7.0.10"
   },
   "dependencies": {
     "@types/jasmine": "^2.6.2"
