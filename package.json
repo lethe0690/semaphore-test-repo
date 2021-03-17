@@ -17,14 +17,22 @@
       }
     ],
     "plugins": [
-      "@semantic-release/npm"
+      "@semantic-release/npm",
+      [
+        "@semantic-release/release-notes-generator",
+        {
+          "preset": "eslint"
+        }
+      ],
+      "@semantic-release/commit-analyzer"
     ]
   },
   "devDependencies": {
+    "@semantic-release/npm": "^7.0.10",
+    "conventional-changelog-eslint": "^3.0.9",
     "jasmine": "^2.8.0",
     "semantic-release": "^17.4.2",
-    "typescript": "^2.5.3",
-    "@semantic-release/npm": "^7.0.10"
+    "typescript": "^2.5.3"
   },
   "dependencies": {
     "@types/jasmine": "^2.6.2"
