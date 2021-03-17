@@ -24,7 +24,12 @@
           "preset": "eslint"
         }
       ],
-      "@semantic-release/commit-analyzer"
+      [
+        "@semantic-release/commit-analyzer",
+        {
+          "preset": "eslint"
+        }
+      ]
     ]
   },
   "devDependencies": {
