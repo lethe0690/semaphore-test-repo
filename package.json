@@ -6,16 +6,8 @@
   "scripts": {
     "test": "node node_modules/jasmine/bin/jasmine.js --config=src/spec/support/jasmine.json"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jeremyoverman/semaphore-test-repo.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jeremyoverman/semaphore-test-repo/issues"
-  },
-  "homepage": "https://github.com/jeremyoverman/semaphore-test-repo#readme",
   "release": {
     "prepare": [
       {
@@ -33,7 +25,7 @@
   },
   "devDependencies": {
     "jasmine": "^2.8.0",
-    "semantic-release": "^16.0.0",
+    "semantic-release": "^17.4.2",
     "typescript": "^2.5.3",
     "@semantic-release/npm": "^7.0.10"
   },
