@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "jasmine": "^2.8.0",
-    "semantic-release": "^8.2.0",
+    "semantic-release": "^16.0.0",
     "typescript": "^2.5.3",
     "@semantic-release/npm": "^7.0.10"
   },
