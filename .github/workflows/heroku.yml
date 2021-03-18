@@ -1,0 +1,20 @@
+name: Heroku webhook triggered release note generation
+on:
+  workflow_dispatch:
+    inputs:
+      repo:
+        description: 'repo to check'
+        required: true
+        default: 'Sage'
+      ref:
+        description: 'gitsha'
+        required: false
+        default: 'The Octoverse'
+
+jobs:
+  say_hello:
+    runs-on: ubuntu-latest
+    steps:
+    - run: |
+        echo "Hello ${{ github.event.inputs.repo }}!"
+        echo "- in ${{ github.event.inputs.ref }}!"
