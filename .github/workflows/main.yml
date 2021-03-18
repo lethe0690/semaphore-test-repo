@@ -10,7 +10,7 @@ on:
         description: 'gitsha'
         required: true
         default: 'The Octoverse'
-        
+
 jobs:
   release:
     name: Release
@@ -19,8 +19,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          fetch-depth: 0
-          ref: ${{ github.event.inputs.gitsha }}
+          ref: ${{ github.event.inputs.ref }}
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
