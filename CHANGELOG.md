@@ -1,3 +1,10 @@
+## [1.9.0](https://github.com/lethe0690/semaphore-test-repo/compare/v1.8.0...v1.9.0) (2021-03-18)
+
+
+### :sparkles: Novidades
+
+* get something fixed ([36bfb0d](https://github.com/lethe0690/semaphore-test-repo/commit/36bfb0d712ba64ded593a784c971c7fec98f0fd2))
+
 ## [1.8.0](https://github.com/lethe0690/semaphore-test-repo/compare/v1.7.0...v1.8.0) (2021-03-18)
 
 
