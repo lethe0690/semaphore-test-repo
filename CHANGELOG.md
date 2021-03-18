@@ -1,3 +1,10 @@
+### [1.10.1](semaphore-test-repo/compare/v1.10.0...v1.10.1) (2021-03-18)
+
+
+### :memo: Documentação
+
+* some thing else ([6a76b27](https://github.com/lethe0690/semaphore-test-repo/commit/6a76b27ca7c0f29e4e05b534606b24649b4e818a))
+
 ## [1.10.0](https://github.com/lethe0690/semaphore-test-repo/compare/v1.9.0...v1.10.0) (2021-03-18)
 
 
