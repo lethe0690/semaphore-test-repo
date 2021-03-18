@@ -1,3 +1,15 @@
+## [1.10.0](https://github.com/lethe0690/semaphore-test-repo/compare/v1.9.0...v1.10.0) (2021-03-18)
+
+
+### 🚀 Features
+
+* add a title ([313cd4c](https://github.com/lethe0690/semaphore-test-repo/commit/313cd4c23576185701711a704c50eba22d466ef8))
+
+
+### :memo: Documentação
+
+* blabla ([a9101e0](https://github.com/lethe0690/semaphore-test-repo/commit/a9101e07fafff627d065e331f5eb914815541910))
+
 ## [1.9.0](https://github.com/lethe0690/semaphore-test-repo/compare/v1.8.0...v1.9.0) (2021-03-18)
 
 
