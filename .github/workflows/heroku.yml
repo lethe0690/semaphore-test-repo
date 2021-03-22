@@ -23,7 +23,7 @@ jobs:
           persist-credentials: false
       - name: Pull the existed next code
         run: |
-          cd semaphore-test-repo
+          cd ${{$GITHUB_WORKSPACE}}/semaphore-test-repo
           git pull origin next
       - name: Push changes
         uses: ad-m/github-push-action@master
