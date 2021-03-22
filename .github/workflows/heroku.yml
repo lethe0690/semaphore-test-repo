@@ -24,7 +24,9 @@ jobs:
       - name: Pull the existed next code
         run: |
           cd /home/runner/work/semaphore-test-repo/semaphore-test-repo
-          git pull origin next
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git pull --rebase origin next
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
