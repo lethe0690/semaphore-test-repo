@@ -142,6 +142,7 @@
   },
   "dependencies": {
     "@types/jasmine": "^2.6.2",
+    "semantic-release-slack-bot": "^2.1.0",
     "typescript": "^2.5.3"
   },
   "version": "1.11.0"
