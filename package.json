@@ -115,7 +115,21 @@
         }
       ],
       "@semantic-release/changelog",
-      "@semantic-release/git"
+      "@semantic-release/git",
+      [
+        "semantic-release-slack-bot",
+        {
+          "notifyOnSuccess": false,
+          "notifyOnFail": false,
+          "slackWebhook": "https://hooks.slack.com/services/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",
+          "branchesConfig": [
+            {
+              "pattern": "ownr-release",
+              "notifyOnSuccess": true
+            }
+          ]
+        }
+      ]
     ]
   },
   "devDependencies": {
