@@ -1,0 +1,35 @@
+name: Heroku webhook triggered release note generation
+on:
+  workflow_dispatch:
+    inputs:
+      repo:
+        description: 'repo to check'
+        required: true
+        default: 'Sage'
+      ref:
+        description: 'gitsha'
+        required: true
+        default: 'The Octoverse'
+
+jobs:
+  push_to_next:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the sha
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.inputs.ref }}
+          persist-credentials: false
+      - name: Pull the existed next code
+        run: |
+          cd /home/runner/work/semaphore-test-repo/semaphore-test-repo
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git pull --rebase origin ownr-release
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.PAT }}
+          branch: 'refs/heads/ownr-release'
+          tags: true
