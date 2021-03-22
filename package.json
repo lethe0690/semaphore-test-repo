@@ -9,6 +9,9 @@
   "author": "",
   "license": "ISC",
   "release": {
+    "branches": [
+      "next"
+    ],
     "plugins": [
       [
         "@semantic-release/npm",
