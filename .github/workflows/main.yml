@@ -1,16 +1,8 @@
 name: Release
 on:
-  workflow_dispatch:
-    inputs:
-      repo:
-        description: 'repo to check'
-        required: true
-        default: 'Sage'
-      ref:
-        description: 'gitsha'
-        required: true
-        default: 'The Octoverse'
-
+  push:
+    branches:
+      - next
 jobs:
   release:
     name: Release
@@ -19,7 +11,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          ref: ${{ github.event.inputs.ref }}
+          fetch-depth: 0
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
