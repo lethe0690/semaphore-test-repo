@@ -27,3 +27,4 @@ jobs:
           github_token: ${{ secrets.PAT }}
           branch: 'refs/heads/next'
           force: true
+          tags: true
