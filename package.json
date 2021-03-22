@@ -8,6 +8,7 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": "https://github.com/lethe0690/semaphore-test-repo.git",
   "release": {
     "branches": [
       "next"
