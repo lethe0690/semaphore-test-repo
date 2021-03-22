@@ -8,17 +8,20 @@ on:
         default: 'Sage'
       ref:
         description: 'gitsha'
-        required: false
+        required: true
         default: 'The Octoverse'
 
 jobs:
-  say_hello:
+  push_to_next:
     runs-on: ubuntu-latest
     steps:
-      - name: create release branch
-        uses: lukebettridge/action-create-branch@accept-commit-sha
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Checkout the sha
+        uses: actions/checkout@v2
         with:
-          sha: ${{ github.event.inputs.ref }}
+          ref: ${{ github.event.inputs.ref }}
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: 'next'
+
