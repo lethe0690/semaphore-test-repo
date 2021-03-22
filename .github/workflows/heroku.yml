@@ -18,11 +18,12 @@ jobs:
       - name: Checkout the sha
         uses: actions/checkout@v2
         with:
+          fetch-depth: 0
           ref: ${{ github.event.inputs.ref }}
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: next
+          branch: 'next'
           force: ture
 
