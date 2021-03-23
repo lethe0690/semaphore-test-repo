@@ -1,3 +1,10 @@
+## [1.2.0](semaphore-test-repo/compare/v1.1.0...v1.2.0) (2021-03-23)
+
+
+### 🚀 Features
+
+* feat 1AAA ([b5fe6c8](https://github.com/lethe0690/semaphore-test-repo/commit/b5fe6c8d5c881122c96a12d93cb98bb18c547513))
+
 ## [1.1.0](semaphore-test-repo/compare/v1.0.0...v1.1.0) (2021-03-23)
 
 
