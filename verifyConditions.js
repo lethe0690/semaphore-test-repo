@@ -7,3 +7,5 @@ module.exports = function (pluginConfig, config, callback) {
         callback(new SRError('Not running on Semaphore, won\'t be published.'));
     }
 }
+
+
