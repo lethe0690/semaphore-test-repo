@@ -1,3 +1,11 @@
+## 1.0.0 (2021-03-23)
+
+
+### 🚀 Features
+
+* add a slack integration ([ee98398](https://github.com/lethe0690/semaphore-test-repo/commit/ee9839836e614b16568f0e64d3e1e8ed3933dafc))
+* feat 1 ([d88fa70](https://github.com/lethe0690/semaphore-test-repo/commit/d88fa707744a035cefc92989dba68cceaa055e0d))
+
 ## 1.0.0 (2021-03-22)
 
 
