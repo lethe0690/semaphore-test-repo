@@ -2,7 +2,7 @@ name: Release-drafter
 on:
   push:
     branches:
-      - master
+      - ownr-release
 jobs:
   release:
     name: Check and Release New Version

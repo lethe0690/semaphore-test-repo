@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ba1d9b3b-cd86-461f-b513-3b64b01698ea" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            <state relative-caret-position="268">
+              <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -64,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="234">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -186,41 +185,6 @@
       <updated>1615995893052</updated>
       <workItem from="1615995895005" duration="17454000" />
       <workItem from="1616423983921" duration="17614000" />
-    </task>
-    <task id="LOCAL-00046" summary="fix: add refs">
-      <created>1616428649071</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1616428649071</updated>
-    </task>
-    <task id="LOCAL-00047" summary="fix: use PAT instead">
-      <created>1616429218241</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1616429218241</updated>
-    </task>
-    <task id="LOCAL-00048" summary="fix: 1">
-      <created>1616429324650</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1616429324650</updated>
-    </task>
-    <task id="LOCAL-00049" summary="fix: 2">
-      <created>1616429338633</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1616429338633</updated>
-    </task>
-    <task id="LOCAL-00050" summary="fix: dont persist credential so PAT is in effect">
-      <created>1616436327342</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1616436327347</updated>
     </task>
     <task id="LOCAL-00051" summary="feat: 1T">
       <created>1616436478115</created>
@@ -530,11 +494,46 @@
       <option name="project" value="LOCAL" />
       <updated>1617306125157</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="feat: 1">
+      <created>1617306414255</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1617306414256</updated>
+    </task>
+    <task id="LOCAL-00096" summary="fix: 2">
+      <created>1617306426252</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1617306426252</updated>
+    </task>
+    <task id="LOCAL-00097" summary="feat: 3">
+      <created>1617306504701</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1617306504701</updated>
+    </task>
+    <task id="LOCAL-00098" summary="feat: 4">
+      <created>1617306796209</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1617306796209</updated>
+    </task>
+    <task id="LOCAL-00099" summary="fix: 41">
+      <created>1617306828385</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1617306828385</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40159000" />
+    <option name="totallyTimeSpent" value="40934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="834" extended-state="0" />
@@ -593,10 +592,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat: 1XXX" />
-    <MESSAGE value="feat: 2XXX" />
-    <MESSAGE value="fix: add tags" />
-    <MESSAGE value="fix: 1A" />
     <MESSAGE value="fix: 1B" />
     <MESSAGE value="fix: by having a pull?" />
     <MESSAGE value="fix: do all over again" />
@@ -613,12 +608,16 @@
     <MESSAGE value="feat: use version detection" />
     <MESSAGE value="feat: just a draft" />
     <MESSAGE value="fix: 1" />
-    <MESSAGE value="feat: 1" />
     <MESSAGE value="feat: 123" />
     <MESSAGE value="feat: feat 1AAA" />
     <MESSAGE value="feat: ABC" />
     <MESSAGE value="feat: with very simple setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: with very simple setup" />
+    <MESSAGE value="feat: 1" />
+    <MESSAGE value="fix: 2" />
+    <MESSAGE value="feat: 3" />
+    <MESSAGE value="feat: 4" />
+    <MESSAGE value="fix: 41" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: 41" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.github/workflows/relaseDrafter.yml" />
@@ -676,15 +675,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state relative-caret-position="268">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="234">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
