@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba1d9b3b-cd86-461f-b513-3b64b01698ea" name="Default Changelist" comment="feat: feat 1AAA">
+    <list default="true" id="ba1d9b3b-cd86-461f-b513-3b64b01698ea" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2178">
-              <caret line="121" column="27" selection-start-line="121" selection-start-column="11" selection-end-line="121" selection-end-column="27" />
+            <state relative-caret-position="156">
+              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -45,26 +46,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.github/workflows/main.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="19" lean-forward="true" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.github/workflows/rd.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="14" />
+            <state relative-caret-position="108">
+              <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.github/workflows/rd.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="288">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -77,10 +78,11 @@
       <find>conventional-changelog-conventionalcommits</find>
       <find>feat</find>
       <find>version</find>
+      <find>ci</find>
     </findStrings>
   </component>
   <component name="Git.Rebase.Settings">
-    <option name="ONTO" value="refs/remotes/origin/ownr-release" />
+    <option name="ONTO" value="refs/remotes/origin/master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -91,11 +93,11 @@
         <option value="$PROJECT_DIR$/.github/workflows/relaseDrafter.yml" />
         <option value="$PROJECT_DIR$/.github/release-drafter.yml" />
         <option value="$PROJECT_DIR$/.github/workflows/heroku.yml" />
-        <option value="$PROJECT_DIR$/src/index.ts" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/verifyConditions.js" />
         <option value="$PROJECT_DIR$/.github/workflows/main.yml" />
         <option value="$PROJECT_DIR$/.github/workflows/rd.yml" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/index.ts" />
       </list>
     </option>
   </component>
@@ -184,34 +186,6 @@
       <updated>1615995893052</updated>
       <workItem from="1615995895005" duration="17454000" />
       <workItem from="1616423983921" duration="17614000" />
-    </task>
-    <task id="LOCAL-00042" summary="fix: head next">
-      <created>1616427622702</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1616427622702</updated>
-    </task>
-    <task id="LOCAL-00043" summary="fix: package.json">
-      <created>1616427768861</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1616427768861</updated>
-    </task>
-    <task id="LOCAL-00044" summary="fix: add next">
-      <created>1616428004819</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1616428004819</updated>
-    </task>
-    <task id="LOCAL-00045" summary="fix: add depth">
-      <created>1616428424376</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1616428424376</updated>
     </task>
     <task id="LOCAL-00046" summary="fix: add refs">
       <created>1616428649071</created>
@@ -528,17 +502,44 @@
       <option name="project" value="LOCAL" />
       <updated>1617302855370</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="feat: 123">
+      <created>1617305556199</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1617305556201</updated>
+    </task>
+    <task id="LOCAL-00092" summary="feat: feat 1AAA">
+      <created>1617305572224</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1617305572224</updated>
+    </task>
+    <task id="LOCAL-00093" summary="feat: ABC">
+      <created>1617305703926</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1617305703926</updated>
+    </task>
+    <task id="LOCAL-00094" summary="feat: with very simple setup">
+      <created>1617306125157</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1617306125157</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39339000" />
+    <option name="totallyTimeSpent" value="40159000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="834" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -551,7 +552,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" weight="0.32884097" />
       <window_info anchor="bottom" id="TypeScript" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49964765" weight="0.3652291" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49964765" visible="true" weight="0.3652291" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003524" side_tool="true" weight="0.8355795" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49964765" weight="0.8355795" />
       <window_info anchor="bottom" id="Messages" order="12" />
@@ -592,9 +593,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat: 4XX" />
-    <MESSAGE value="fix: package.json" />
-    <MESSAGE value="fix: remove all tags to get started again" />
     <MESSAGE value="feat: 1XXX" />
     <MESSAGE value="feat: 2XXX" />
     <MESSAGE value="fix: add tags" />
@@ -606,7 +604,6 @@
     <MESSAGE value="feat: add a bot" />
     <MESSAGE value="feat: add a bot deps" />
     <MESSAGE value="feat: change webhook url" />
-    <MESSAGE value="feat: 123" />
     <MESSAGE value="feat: remove the bot" />
     <MESSAGE value="Merge branch 'ownr-release' of https://github.com/lethe0690/semaphore-test-repo" />
     <MESSAGE value="feat: add a slack integration" />
@@ -617,7 +614,11 @@
     <MESSAGE value="feat: just a draft" />
     <MESSAGE value="fix: 1" />
     <MESSAGE value="feat: 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 1" />
+    <MESSAGE value="feat: 123" />
+    <MESSAGE value="feat: feat 1AAA" />
+    <MESSAGE value="feat: ABC" />
+    <MESSAGE value="feat: with very simple setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: with very simple setup" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.github/workflows/relaseDrafter.yml" />
@@ -635,24 +636,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.github/workflows/heroku.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.github/workflows/main.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="19" lean-forward="true" selection-end-line="26" />
         </state>
       </provider>
     </entry>
@@ -666,13 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2178">
-          <caret line="121" column="27" selection-start-line="121" selection-start-column="11" selection-end-line="121" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.github/release-drafter.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -680,10 +660,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.github/workflows/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.github/workflows/rd.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="14" />
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
