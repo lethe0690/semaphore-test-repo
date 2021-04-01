@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba1d9b3b-cd86-461f-b513-3b64b01698ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/semaphore-test-repo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/verifyConditions.js" beforeDir="false" afterPath="$PROJECT_DIR$/verifyConditions.js" afterDir="false" />
+    <list default="true" id="ba1d9b3b-cd86-461f-b513-3b64b01698ea" name="Default Changelist" comment="feat: feat 1AAA">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,23 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1117">
-              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-              <folding>
-                <element signature="e#1441#2721#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="108">
-                <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="2178">
+              <caret line="121" column="27" selection-start-line="121" selection-start-column="11" selection-end-line="121" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -47,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.github/release-drafter.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            <state relative-caret-position="396">
+              <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -56,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.github/workflows/heroku.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+            <state relative-caret-position="450">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -65,17 +45,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.github/workflows/main.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+            <state relative-caret-position="342">
+              <caret line="19" column="19" lean-forward="true" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/verifyConditions.js">
+        <entry file="file://$PROJECT_DIR$/.github/workflows/rd.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="414">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -113,18 +93,9 @@
         <option value="$PROJECT_DIR$/.github/workflows/heroku.yml" />
         <option value="$PROJECT_DIR$/src/index.ts" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/.github/workflows/main.yml" />
         <option value="$PROJECT_DIR$/verifyConditions.js" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/semaphore-test-repo.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.github/workflows/main.yml" />
+        <option value="$PROJECT_DIR$/.github/workflows/rd.yml" />
       </list>
     </option>
   </component>
@@ -138,7 +109,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,12 +130,24 @@
             <path>
               <item name="semaphore-test-repo" type="b2602c69:ProjectViewProjectNode" />
               <item name="semaphore-test-repo" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="semaphore-test-repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="semaphore-test-repo" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="semaphore-test-repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="semaphore-test-repo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,48 +184,6 @@
       <updated>1615995893052</updated>
       <workItem from="1615995895005" duration="17454000" />
       <workItem from="1616423983921" duration="17614000" />
-    </task>
-    <task id="LOCAL-00036" summary="feat: rev">
-      <created>1616425051757</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1616425051758</updated>
-    </task>
-    <task id="LOCAL-00037" summary="feat: add repo to test">
-      <created>1616425600064</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1616425600064</updated>
-    </task>
-    <task id="LOCAL-00038" summary="feat: add next to test">
-      <created>1616426077688</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1616426077688</updated>
-    </task>
-    <task id="LOCAL-00039" summary="feat: go through push route">
-      <created>1616427101025</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1616427101025</updated>
-    </task>
-    <task id="LOCAL-00040" summary="fix: do not include">
-      <created>1616427204669</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1616427204669</updated>
-    </task>
-    <task id="LOCAL-00041" summary="fix: force">
-      <created>1616427400643</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1616427400643</updated>
     </task>
     <task id="LOCAL-00042" summary="fix: head next">
       <created>1616427622702</created>
@@ -546,16 +486,59 @@
       <option name="project" value="LOCAL" />
       <updated>1616509912327</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="feat: add release drafter">
+      <created>1617292794693</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1617292794701</updated>
+    </task>
+    <task id="LOCAL-00086" summary="fix: fix yaml">
+      <created>1617292851190</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1617292851190</updated>
+    </task>
+    <task id="LOCAL-00087" summary="feat: use version detection">
+      <created>1617293083831</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1617293083831</updated>
+    </task>
+    <task id="LOCAL-00088" summary="feat: just a draft">
+      <created>1617302766872</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1617302766872</updated>
+    </task>
+    <task id="LOCAL-00089" summary="fix: 1">
+      <created>1617302798889</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1617302798889</updated>
+    </task>
+    <task id="LOCAL-00090" summary="feat: 1">
+      <created>1617302855370</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1617302855370</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35068000" />
+    <option name="totallyTimeSpent" value="39339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="834" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -568,7 +551,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" weight="0.32884097" />
       <window_info anchor="bottom" id="TypeScript" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49964765" visible="true" weight="0.3652291" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49964765" weight="0.3652291" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003524" side_tool="true" weight="0.8355795" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49964765" weight="0.8355795" />
       <window_info anchor="bottom" id="Messages" order="12" />
@@ -590,14 +573,25 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat: 2T" />
-    <MESSAGE value="fix: true is not ture" />
-    <MESSAGE value="feat: 1XX" />
-    <MESSAGE value="feat: 2XX" />
-    <MESSAGE value="feat: 3XX" />
     <MESSAGE value="feat: 4XX" />
     <MESSAGE value="fix: package.json" />
     <MESSAGE value="fix: remove all tags to get started again" />
@@ -611,32 +605,22 @@
     <MESSAGE value="feat: 2" />
     <MESSAGE value="feat: add a bot" />
     <MESSAGE value="feat: add a bot deps" />
-    <MESSAGE value="feat: 1" />
     <MESSAGE value="feat: change webhook url" />
     <MESSAGE value="feat: 123" />
     <MESSAGE value="feat: remove the bot" />
     <MESSAGE value="Merge branch 'ownr-release' of https://github.com/lethe0690/semaphore-test-repo" />
     <MESSAGE value="feat: add a slack integration" />
     <MESSAGE value="feat: feat 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: feat 1" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="feat: add release drafter" />
+    <MESSAGE value="fix: fix yaml" />
+    <MESSAGE value="feat: use version detection" />
+    <MESSAGE value="feat: just a draft" />
+    <MESSAGE value="fix: 1" />
+    <MESSAGE value="feat: 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.github/workflows/relaseDrafter.yml" />
-    <entry file="file://$PROJECT_DIR$/src/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.github/release-drafter.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -644,17 +628,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/verifyConditions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.github/workflows/heroku.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        <state relative-caret-position="450">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.github/workflows/main.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        <state relative-caret-position="342">
+          <caret line="19" column="19" lean-forward="true" selection-end-line="26" />
         </state>
       </provider>
     </entry>
@@ -670,18 +668,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1117">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding>
-            <element signature="e#1441#2721#0" />
-          </folding>
+        <state relative-caret-position="2178">
+          <caret line="121" column="27" selection-start-line="121" selection-start-column="11" selection-end-line="121" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/verifyConditions.js">
+    <entry file="file://$PROJECT_DIR$/.github/release-drafter.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="396">
+          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.github/workflows/rd.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="14" />
         </state>
       </provider>
     </entry>
