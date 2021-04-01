@@ -21,7 +21,7 @@ jobs:
 #        if: steps.check-version.outputs.tag
         # We can switch to a tagged version once 5.8 is published
         uses: release-drafter/release-drafter@v5
-        with:
+#        with:
 #          publish: true
 #          tag: ${{ steps.check-version.outputs.tag }}
         env:
