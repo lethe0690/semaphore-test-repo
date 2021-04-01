@@ -1,3 +1,20 @@
+## [1.6.0](semaphore-test-repo/compare/v1.5.0...v1.6.0) (2021-04-01)
+
+
+### 📝 Documentação
+
+* my first doc ([e2e0785](https://github.com/lethe0690/semaphore-test-repo/commit/e2e0785f88e2fb7ff55f2d7dc2e568f84fdc5398))
+
+
+### 💻 Bugs
+
+* remove unused code ([d4c8f16](https://github.com/lethe0690/semaphore-test-repo/commit/d4c8f16ad30782c0650a21146a005cf173ae780f))
+
+
+### 🚀 Features
+
+* first new feature ([b290a08](https://github.com/lethe0690/semaphore-test-repo/commit/b290a087ecf4c82a4b89ae9224e73e01fe6be7ce))
+
 ## 1.0.0 (2021-04-01)
 
 
