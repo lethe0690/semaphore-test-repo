@@ -2,7 +2,7 @@ name: Release
 on:
   push:
     branches:
-      - ownr-release
+      - master
 jobs:
   release:
     name: Release
