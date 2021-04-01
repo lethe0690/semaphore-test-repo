@@ -13,12 +13,12 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Check for Version Change
-        id: check-version
-        uses: salsify/action-detect-and-tag-new-version@v1
+#      - name: Check for Version Change
+#        id: check-version
+#        uses: salsify/action-detect-and-tag-new-version@v1
 
       - name: Publish Release Notes
-        if: steps.check-version.outputs.tag
+#        if: steps.check-version.outputs.tag
         # We can switch to a tagged version once 5.8 is published
         uses: release-drafter/release-drafter@v5
         with:
