@@ -11,4 +11,3 @@ export function minus(a: number, b: number) {
 export function mul(a: number, b: number) {
     return a * b;
 }
-
