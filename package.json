@@ -13,10 +13,6 @@
     "url": "https://github.com/lethe0690/semaphore-test-repo.git"
   },
   "release": {
-    "branches": [
-      "+([1-9])?(.{+([1-9]),x}).x",
-      "ownr-release"
-    ],
     "plugins": [
       [
         "@semantic-release/npm",
