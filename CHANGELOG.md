@@ -1,3 +1,10 @@
+### [1.7.1](semaphore-test-repo/compare/v1.7.0...v1.7.1) (2021-04-05)
+
+
+### 🙈 Bugs
+
+* hopefully the github tag is published ([02b8a34](https://github.com/lethe0690/semaphore-test-repo/commit/02b8a345c5ae5663f5fbd8e26b277508a7d9a2f2))
+
 ## [1.7.0](semaphore-test-repo/compare/v1.6.0...v1.7.0) (2021-04-05)
 
 
