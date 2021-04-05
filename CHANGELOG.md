@@ -1,3 +1,10 @@
+## [1.9.0](semaphore-test-repo/compare/v1.8.0...v1.9.0) (2021-04-05)
+
+
+### 🚀 Features
+
+* slack? ([dc54b9a](https://github.com/lethe0690/semaphore-test-repo/commit/dc54b9ae5a8cc1079c8a5bc8161c36b1bea3a2b6))
+
 ## [1.8.0](semaphore-test-repo/compare/v1.7.1...v1.8.0) (2021-04-05)
 
 

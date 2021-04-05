@@ -131,5 +131,5 @@
     "@types/jasmine": "^2.6.2",
     "typescript": "^2.5.3"
   },
-  "version": "1.8.0"
+  "version": "1.9.0"
 }
