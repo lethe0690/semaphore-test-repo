@@ -45,15 +45,7 @@
               "release": "patch"
             },
             {
-              "type": "perf",
-              "release": "patch"
-            },
-            {
               "type": "ci",
-              "release": "patch"
-            },
-            {
-              "type": "build",
               "release": "patch"
             }
           ]
@@ -73,27 +65,22 @@
               },
               {
                 "type": "fix",
-                "section": "💻 Bugs",
+                "section": "🙈 Bugs",
                 "hidden": false
               },
               {
                 "type": "docs",
-                "section": "📝 Documentação",
+                "section": "📝 Documents",
                 "hidden": false
               },
               {
                 "type": "style",
-                "section": ":barber: Estilização",
+                "section": "👩‍💻 Styles",
                 "hidden": false
               },
               {
                 "type": "refactor",
-                "section": ":zap: Refatoração",
-                "hidden": false
-              },
-              {
-                "type": "perf",
-                "section": ":fast_forward: Desempenho",
+                "section": "⏫ Refactors",
                 "hidden": false
               },
               {
@@ -103,7 +90,7 @@
               },
               {
                 "type": "ci",
-                "section": ":repeat: CI",
+                "section": "💻 CI",
                 "hidden": false
               },
               {
@@ -115,7 +102,12 @@
         }
       ],
       "@semantic-release/changelog",
-      "@semantic-release/git",
+      [
+        "@semantic-release/git",
+        {
+          "message": "${nextRelease.version} Release Notes\n\n${nextRelease.notes}"
+        }
+      ],
       [
         "@intuit/semantic-release-slack",
         {
