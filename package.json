@@ -56,7 +56,7 @@
         {
           "preset": "conventionalcommits",
           "presetConfig": {
-            "compareUrlFormat": "{{repository}}/compare/{{previousTag}}...{{currentTag}}",
+            "compareUrlFormat": "Here is what's available in version",
             "types": [
               {
                 "type": "feat",
@@ -122,12 +122,12 @@
     "@semantic-release/git": "^9.0.0",
     "@semantic-release/npm": "^7.0.10",
     "conventional-changelog-conventionalcommits": "^4.5.0",
-    "jasmine": "^2.8.0",
     "semantic-release": "^17.4.2",
     "@intuit/semantic-release-slack": "^1.0.3",
     "@semantic-release/github": "^7.2.0"
   },
   "dependencies": {
+    "jasmine": "^2.8.0",
     "@types/jasmine": "^2.6.2",
     "typescript": "^2.5.3"
   },
