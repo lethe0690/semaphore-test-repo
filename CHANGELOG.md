@@ -1,3 +1,20 @@
+## [1.8.0](semaphore-test-repo/compare/v1.7.1...v1.8.0) (2021-04-05)
+
+
+### 🙈 Bugs
+
+* 1 ([142d1a2](https://github.com/lethe0690/semaphore-test-repo/commit/142d1a2cc800f30dec0731924b2ac62b817ab747))
+
+
+### 🚀 Features
+
+* this is a feature ([316c833](https://github.com/lethe0690/semaphore-test-repo/commit/316c833ef716e34b89215db129e1356042fbd749))
+
+
+### 📝 Documents
+
+* hello ([c881b69](https://github.com/lethe0690/semaphore-test-repo/commit/c881b6955e55988d629f413857ee499ac4c0ac87))
+
 ### [1.7.1](semaphore-test-repo/compare/v1.7.0...v1.7.1) (2021-04-05)
 
 
