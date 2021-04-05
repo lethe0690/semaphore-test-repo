@@ -12,4 +12,4 @@ export function mul(a: number, b: number) {
     return a * b;
 }
 
-const q = 1;
+const c = 1;
