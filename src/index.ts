@@ -13,3 +13,5 @@ export function mul(a: number, b: number) {
 }
 
 const c = 1;
+
+const d = 1;
