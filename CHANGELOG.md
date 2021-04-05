@@ -1,3 +1,16 @@
+## [1.10.0](Here is what's available in version) (2021-04-05)
+
+
+### 🚀 Features
+
+* second fix ([57e6fa2](https://github.com/lethe0690/semaphore-test-repo/commit/57e6fa26a8643618766212cbb7419f44c3ec7730))
+* slack something ([722b362](https://github.com/lethe0690/semaphore-test-repo/commit/722b362855008a1845477593bd4ea780d701fd99))
+
+
+### 🙈 Bugs
+
+* fix a blabla ([f2f38be](https://github.com/lethe0690/semaphore-test-repo/commit/f2f38beeb33a1c7ab6d5e6a09bbeeec6ab53add3))
+
 ## [1.9.0](semaphore-test-repo/compare/v1.8.0...v1.9.0) (2021-04-05)
 
 
