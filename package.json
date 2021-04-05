@@ -108,7 +108,13 @@
           "message": "Release Notes\n\n${nextRelease.notes}"
         }
       ],
-      "@semantic-release/github"
+      "@semantic-release/github",
+      [
+        "@intuit/semantic-release-slack",
+        {
+          "fullReleaseNotes": true
+        }
+      ]
     ]
   },
   "devDependencies": {
@@ -117,10 +123,11 @@
     "@semantic-release/npm": "^7.0.10",
     "conventional-changelog-conventionalcommits": "^4.5.0",
     "jasmine": "^2.8.0",
-    "semantic-release": "^17.4.2"
+    "semantic-release": "^17.4.2",
+    "@intuit/semantic-release-slack": "^1.0.3",
+    "@semantic-release/github": "^7.2.0"
   },
   "dependencies": {
-    "@semantic-release/github": "^7.2.0",
     "@types/jasmine": "^2.6.2",
     "typescript": "^2.5.3"
   },
