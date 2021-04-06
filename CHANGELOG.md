@@ -1,3 +1,11 @@
+### [1.10.1](Here is what's available in version) (2021-04-06)
+
+
+### 🙈 Bugs
+
+* add a version ([ed3b9c3](https://github.com/lethe0690/semaphore-test-repo/commit/ed3b9c3db2d990e0dc1b0195cca054d8a498636c))
+* add a version ([0862b25](https://github.com/lethe0690/semaphore-test-repo/commit/0862b252c6602446e6abc445a2e30861f99499c5))
+
 ## [1.10.0](Here is what's available in version) (2021-04-05)
 
 
